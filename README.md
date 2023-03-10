@@ -18,9 +18,11 @@
             take advantage of DBMS</li>
         <li>Determine the structure of requests and responses yourself</li>
     </ul>
-
-    <strong>Stack</strong>
-        <p>Docker</p>
-        <p>Nest.js(Sequlize)</p>
-        <p>PostGreSql</p>
-        <p> Swagger</p>
+ <h2>Stack</h2>
+ <ul>
+ <li>Docker</li>
+ <li>Nest.js(Sequlize)</li>
+ <li>PostGreSql</li>
+ <li>Swagger</li>
+ </ul>   
+  
