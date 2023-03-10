@@ -1,5 +1,7 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, UseInterceptors } from '@nestjs/common';
 import { InjectModel } from '@nestjs/sequelize';
+import { Transaction } from 'sequelize';
+import { TransactionInterceptor } from 'src/utils/transaction.interceptor';
 import { CreatePointDto } from './dto/create-point.dto';
 import { DeletePointDto } from './dto/delete-point.dto';
 import { FindPointDto } from './dto/find-point.dto';
