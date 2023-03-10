@@ -8,11 +8,15 @@ export class GetOneGeozoneDto {
  
 export class CheckPointDTO {
     @ApiProperty({example:4.4, description: 'lat value'})
-    lat: number
+    readonly lat: number
 
     @ApiProperty({example:1.4, description: 'lon value'})
-    lon: number
+    readonly lon: number
 
     @ApiProperty({example:3, description: 'Id geozone'})
-    geozoneId: number
+    readonly geozoneId: number
 }
+ export class ResultCheckPointDto{
+    @ApiProperty({example:false, description: 'response on function'})
+    readonly IsInGeozone: boolean
+ }
