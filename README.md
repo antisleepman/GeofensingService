@@ -30,4 +30,5 @@
  <li>update password on develop.env to "root"</li>
  <li>docker-compose build</li>
  <li>docker-compose up</li>
+ <h2>run without docker 1)check develop.env and put ur user&pass on db 2) npm run start:dev</h2>
  </ul>   
