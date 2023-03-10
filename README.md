@@ -25,4 +25,9 @@
  <li>PostGreSql</li>
  <li>Swagger</li>
  </ul>   
-  
+  <h2>Start app</h2>
+ <ul>
+ <li>update password on develop.env to "root"</li>
+ <li>docker-compose build</li>
+ <li>docker-compose up</li>
+ </ul>   
